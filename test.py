@@ -1,6 +1,7 @@
 import requests
-r = requests.get('https://api.github.com/events')
+r = requests.get('https://www.baidu.com/')
 data = r.text
 print(data)
+
 
 
